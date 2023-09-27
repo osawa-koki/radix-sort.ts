@@ -1,0 +1,24 @@
+{
+  "name": "radix-sort.ts",
+  "description": "🎄🎄🎄 基数ソートをTypeScriptで実装してみる！！！",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/osawa-koki/radix-sort.ts.git",
+  "author": "osawa-koki <koki@osawa.dev>",
+  "license": "Apache-2.0",
+  "private": false,
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  }
+}
